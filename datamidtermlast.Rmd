@@ -1,0 +1,55 @@
+---
+title: "Causes of Internal Migration Mobility in Turkey"
+author: 
+  - AKİN, Ayberk[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{english}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== FOOTNOTES ============================== -->
+<!-- ======================================================================= -->
+[^1]: 19080575, [datamidtermlast](https://github.com/AyberkAkin19080575/Datamidtermlast.git)
+
+
+# Introduction
+The phenomenon of migration has been a topic of interest in Turkey for many years. With its strategic location and diverse economic and political landscape, Turkey has been a destination and transit country for migrants from various parts of the world. This literature review aims to provide a critical analysis of five articles related to international and internal migration in Turkey. The articles under review examine various aspects of migration in Turkey, including the legal framework, policy development, migration determinants, demographic changes, and social and economic impacts. The review provides insights into the common themes and issues that emerge from the studies and highlights the implications of these findings for data science research and policy development.
+
+## Literature Review
+
+The first article, "A panorama of the international migration regime in Turkey," provides an overview of Turkey's international migration regime, highlighting the legal framework, policy development, and institutional actors involved in regulating and managing migration flows. The article emphasizes the challenges and opportunities associated with Turkey's evolving approach to migration, including the impact on social and economic integration, human rights, and regional stability. [@iccduygu2006panorama]
+
+The second article, "Turkish migration policies: A critical historical retrospective," traces the historical development of Turkey's migration policies, examining the factors that have shaped Turkey's approach to migration. The article highlights the impact of Turkey's migration policies on various groups, including migrants, refugees, and host communities, and emphasizes the need for a more critical and reflective approach to migration policy development.[@iccduygu2013turkish]
+
+The third and fourth articles,examine the determinants of internal migration in Turkey, using data from the Turkish Statistical Institute and other sources. Both studies identify demographic, economic, and social factors that influence migration behavior and highlight the implications of these findings for policy development aimed at promoting regional development and reducing disparities across different parts of the country.[@gbad1190611]and [@ccetin2018turkiye]
+
+The fifth article, provides a detailed analysis of the factors that influence internal migration in Turkey, exploring the role of economic, demographic, social, and cultural factors in shaping migration patterns. The article highlights the challenges and opportunities associated with internal migration in Turkey, including issues related to urbanization, social integration, and labor market dynamics.[@albayrak2017turkiye]
+
+
+\newpage
+# References {#references}
+<div id="refs"></div>
+
